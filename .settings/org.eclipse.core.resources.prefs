@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java/alipayUtility=UTF-8
+encoding//src/main/java/me/hagen/ssh/action/DemoAction.java=UTF-8
+encoding//src/main/java/me/hagen/ssh/action/PayAction.java=UTF-8
+encoding//src/main/java/me/hagen/ssh/action/UploadAction.java=UTF-8
+encoding//src/main/java/me/hagen/ssh/dao/UserDao.java=UTF-8
+encoding//src/main/resources/log4j.properties=UTF-8
+encoding//src/test/java/me/hagen/ssh/dao/ordinary.java=UTF-8
+encoding//webapp/PictureTest.jsp=UTF-8
+encoding//webapp/index.html=UTF-8
+encoding//webapp/test.jsp=UTF-8

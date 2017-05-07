@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="hibernate.cfg.xml/Hibernate" uuid="83eaebbe-1388-4b94-aa5b-59f08459afb2">
+    <database-info product="MySQL" version="5.7.16" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="test"/>
+      <table id="2" parent="1" name="alipay"/>
+      <table id="3" parent="1" name="average_star"/>
+      <table id="4" parent="1" name="classification"/>
+      <table id="5" parent="1" name="coupon"/>
+      <table id="6" parent="1" name="part_time_order"/>
+      <table id="7" parent="1" name="part_time_picture"/>
+      <table id="8" parent="1" name="part_time_relation"/>
+      <table id="9" parent="1" name="run_comment"/>
+      <table id="10" parent="1" name="run_comment_picture"/>
+      <table id="11" parent="1" name="run_off_order"/>
+      <table id="12" parent="1" name="run_off_relation"/>
+      <table id="13" parent="1" name="run_picture"/>
+      <table id="14" parent="1" name="user"/>
+      <table id="15" parent="1" name="user_info"/>
+      <table id="16" parent="1" name="work_comment"/>
+      <table id="17" parent="1" name="work_comment_picture"/>
+      <column id="18" parent="2" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="19" parent="2" name="Detail">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="20" parent="2" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="21" parent="3" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="22" parent="3" name="UserId">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="23" parent="3" name="PTPublisher">
+        <mandatory>1</mandatory>
+        <data-type>float(255,1)</data-type>
+        <default-expression>&apos;5.0&apos;</default-expression>
+      </column>
+      <column id="24" parent="3" name="PTWorker">
+        <mandatory>1</mandatory>
+        <data-type>float(255,1)</data-type>
+        <default-expression>&apos;5.0&apos;</default-expression>
+      </column>
+      <column id="25" parent="3" name="RunPublisher">
+        <mandatory>1</mandatory>
+        <data-type>float(255,1)</data-type>
+        <default-expression>&apos;5.0&apos;</default-expression>
+      </column>
+      <column id="26" parent="3" name="RunWorker">
+        <mandatory>1</mandatory>
+        <data-type>float(255,1)</data-type>
+        <default-expression>&apos;5.0&apos;</default-expression>
+      </column>
+      <key id="27" parent="3" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="28" parent="4" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="29" parent="4" name="pid">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="30" parent="4" name="Name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="31" parent="4" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="32" parent="5" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="33" parent="5" name="UserId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="34" parent="5" name="Decreased">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="35" parent="5" name="Limit">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="36" parent="5" name="FinishedTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="37" parent="5" name="Type">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="38" parent="5" name="Status">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="39" parent="5" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="40" parent="6" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="41" parent="6" name="UserId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="42" parent="6" name="Name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="43" parent="6" name="Detail">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="44" parent="6" name="Pay">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="45" parent="6" name="Location">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="46" parent="6" name="Latitude">
+        <data-type>float(255,2)</data-type>
+      </column>
+      <column id="47" parent="6" name="Longitude">
+        <data-type>float(255,2)</data-type>
+      </column>
+      <column id="48" parent="6" name="ReleaseTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="49" parent="6" name="StartTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="50" parent="6" name="CutoffTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="51" parent="6" name="EndInTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="52" parent="6" name="Gender">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="53" parent="6" name="Age">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="54" parent="6" name="Education">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="55" parent="6" name="Occupation">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="56" parent="6" name="RequiredNumber">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="57" parent="6" name="CurrentNumber">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="58" parent="6" name="Cid">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="59" parent="6" name="SafeMoney">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="60" parent="6" name="Status">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="61" parent="6" name="type">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="62" parent="6" name="AverageStar">
+        <data-type>float(255,1)</data-type>
+      </column>
+      <key id="63" parent="6" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <trigger id="64" parent="6" name="refresh">
+        <trig-events>U</trig-events>
+        <trig-turn>BEFORE_ROW</trig-turn>
+      </trigger>
+      <column id="65" parent="7" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="66" parent="7" name="ImgURL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="67" parent="7" name="ImgName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="68" parent="7" name="OrderId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="69" parent="7" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="70" parent="8" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="71" parent="8" name="OrderId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="72" parent="8" name="UserId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="73" parent="8" name="Hired">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="74" parent="8" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <trigger id="75" parent="8" name="AddOne">
+        <trig-events>U</trig-events>
+        <trig-turn>AFTER_ROW</trig-turn>
+      </trigger>
+      <column id="76" parent="9" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="77" parent="9" name="Content">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="78" parent="9" name="RunId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="79" parent="9" name="UserId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="80" parent="9" name="Type">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="81" parent="9" name="Star">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="82" parent="9" name="publisherId">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="83" parent="9" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="84" parent="10" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="85" parent="10" name="ImgName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="86" parent="10" name="CommentId">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="87" parent="10" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="88" parent="11" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="89" parent="11" name="UserId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="90" parent="11" name="Name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="91" parent="11" name="ReleaseTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="92" parent="11" name="Destination">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="93" parent="11" name="Longitude">
+        <data-type>float(255,2)</data-type>
+      </column>
+      <column id="94" parent="11" name="Latitude">
+        <data-type>float(255,2)</data-type>
+      </column>
+      <column id="95" parent="11" name="FinishTime">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="96" parent="11" name="Detail">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="97" parent="11" name="Pay">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="98" parent="11" name="Status">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="99" parent="11" name="AverageStar">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <key id="100" parent="11" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="101" parent="12" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="102" parent="12" name="OrderId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="103" parent="12" name="UserId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="104" parent="12" name="Hired">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="105" parent="12" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <trigger id="106" parent="12" name="InRunOff">
+        <trig-events>I</trig-events>
+        <trig-turn>AFTER_ROW</trig-turn>
+      </trigger>
+      <column id="107" parent="13" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="108" parent="13" name="ImgName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="109" parent="13" name="OrderId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="110" parent="13" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="111" parent="14" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="112" parent="14" name="phoneNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="113" parent="14" name="CertifyType">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="114" parent="14" name="QQNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="115" parent="14" name="wcNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="116" parent="14" name="wbNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="117" parent="14" name="userToken">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="118" parent="14" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="119" parent="15" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="120" parent="15" name="UserId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="121" parent="15" name="IdentityNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="122" parent="15" name="TrueName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="123" parent="15" name="Password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="124" parent="15" name="BankNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="125" parent="15" name="Age">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="126" parent="15" name="HeadImage">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="127" parent="15" name="gender">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="128" parent="15" name="Education">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="129" parent="15" name="CreditAsBoss">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="130" parent="15" name="CreditAsWorker">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="131" parent="15" name="Balance">
+        <data-type>float(255,2)</data-type>
+      </column>
+      <column id="132" parent="15" name="Occupation">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="133" parent="15" name="NickName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="134" parent="15" name="PayPassword">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="135" parent="15" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="136" parent="16" name="Id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="137" parent="16" name="Content">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="138" parent="16" name="WorkId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="139" parent="16" name="UserId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="140" parent="16" name="Type">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="141" parent="16" name="Star">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="142" parent="16" name="PublisherId">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="143" parent="16" name="PRIMARY">
+        <columns>Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="144" parent="17" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="145" parent="17" name="ImgName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="146" parent="17" name="ImgURL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="147" parent="17" name="WorkCommentId">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="148" parent="17" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="photo@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="photo">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="hospital"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mybatis"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="sduinfo"/>
+    <schema id="9" parent="1" name="sys"/>
+    <schema id="10" parent="1" name="test"/>
+    <schema id="11" parent="1" name="weiruan"/>
+    <table id="12" parent="2" name="photo"/>
+    <table id="13" parent="2" name="properties"/>
+    <table id="14" parent="2" name="region"/>
+    <table id="15" parent="2" name="userdownload"/>
+    <table id="16" parent="2" name="users"/>
+    <column id="17" parent="12" name="photo_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="18" parent="12" name="photo_owner">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="19" parent="12" name="region_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="20" parent="12" name="region_name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="21" parent="12" name="photo_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="22" parent="12" name="type">
+      <Position>6</Position>
+      <DataType>varchar(15)|0</DataType>
+    </column>
+    <column id="23" parent="12" name="download">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="24" parent="12" name="die">
+      <Position>8</Position>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="25" parent="12" name="deadtime">
+      <Position>9</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="26" parent="12" name="photo_name">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="27" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>photo_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="13" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="13" name="markLocation">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="30" parent="13" name="marktype">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="31" parent="13" name="push">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="32" parent="13" name="about">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="13" name="connect">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="34" parent="13" name="maxupload">
+      <Position>7</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;10&apos;</DefaultExpression>
+    </column>
+    <column id="35" parent="13" name="deadline">
+      <Position>8</Position>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;10&apos;</DefaultExpression>
+    </column>
+    <column id="36" parent="13" name="kaitong">
+      <Position>9</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="37" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="38" parent="14" name="region_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="14" name="region_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="40" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>region_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="15" name="username">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="42" parent="15" name="date">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="43" parent="15" name="photo_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="44" parent="16" name="username">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="16" name="password">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="46" parent="16" name="date">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="47" parent="16" name="characters">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="48" parent="16" name="name">
+      <Position>5</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="49" parent="16" name="headimgurl">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="50" parent="16" name="mark_type">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="51" parent="16" name="mark_location">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="52" parent="16" name="mark_text">
+      <Position>9</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="53" parent="16" name="mark_img">
+      <Position>10</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="54" parent="16" name="black">
+      <Position>11</Position>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="55" parent="16" name="bepaishou">
+      <Position>12</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="56" parent="16" name="bevip">
+      <Position>13</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="57" parent="16" name="vipdeadline">
+      <Position>14</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="58" parent="16" name="uploadcount">
+      <Position>15</Position>
+      <DataType>int(9)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="59" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
