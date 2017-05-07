@@ -1,0 +1,6 @@
+2016-10-17 19:21:49  [ main:6251 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0,3' at line 1
+ 2016-10-17 19:23:03  [ main:3894 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+ 2016-10-17 19:23:30  [ main:3966 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT0,3' at line 1
+ 2016-10-17 19:24:32  [ main:3811 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT0,3' at line 1
+ 2016-10-17 19:25:06  [ main:3904 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '3' at line 1
+ 

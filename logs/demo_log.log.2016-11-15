@@ -1,0 +1,856 @@
+2016-11-15 15:17:11  [ main:578 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:17:12  [ main:1631 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:17:12  [ main:1686 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:17:12  [ main:1686 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:17:12  [ main:1686 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:17:12  [ main:1701 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:17:12  [ main:1701 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:17:12  [ main:1764 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@157844d3: startup date [Tue Nov 15 15:17:12 CST 2016]; root of context hierarchy
+2016-11-15 15:17:12  [ main:2248 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 15:17:12  [ main:2498 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 15:17:13  [ main:3233 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 15:17:13  [ main:3267 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 15:17:13  [ main:3267 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 15:17:13  [ main:3267 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 15:17:13  [ main:3313 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 15:17:13  [ main:3407 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 15:17:14  [ main:3751 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 15:17:14  [ main:3751 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 15:17:14  [ main:3782 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 15:17:14  [ main:3782 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 15:17:14  [ main:3782 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 15:17:14  [ main:3938 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@276b3084 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@fc9a64df [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjb355b65w33|4a140a2c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6e21bd24 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjb355b65w33|646d6546, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjb355b65w33|22ea26c0, numHelperThreads -> 3 ]
+2016-11-15 15:17:14  [ main:4282 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 15:17:14  [ main:4339 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 15:17:14  [ main:4339 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 15:17:14  [ main:4386 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 15:17:15  [ main:4761 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 15:17:15  [ main:4761 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 15:17:15  [ main:4761 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 15:17:15  [ main:4776 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 15:17:15  [ main:4776 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 15:17:15  [ main:4776 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4776 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4792 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 15:17:15  [ main:4792 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 15:17:15  [ main:4792 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4792 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4808 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 15:17:15  [ main:4808 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 15:17:15  [ main:4808 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4808 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4823 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 15:17:15  [ main:4823 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4839 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4855 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 15:17:15  [ main:4855 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:17:15  [ main:4855 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4855 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 15:17:15  [ main:4870 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 15:17:15  [ main:4886 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4886 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4886 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4901 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4917 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 15:17:15  [ main:4917 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 15:17:15  [ main:4917 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4917 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 15:17:15  [ main:4933 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4948 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4964 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 15:17:15  [ main:4964 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 15:17:15  [ main:4964 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:17:15  [ main:4964 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:17:15  [ main:4964 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 15:17:15  [ main:5136 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@276b3084 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@fc9a64df [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjb355b65w33|4a140a2c, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@6e21bd24 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjb355b65w33|646d6546, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjb355b65w33|22ea26c0, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 15:17:16  [ main:5933 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@21b585b1 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@6c661428, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@145c38c1 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@7b2264c4]; rollback [true]
+2016-11-15 15:17:16  [ main:6035 ] - [ ERROR ]  line 1:8: unexpected token: as
+2016-11-15 15:17:16  [ main:6035 ] - [ ERROR ]  line 1:8: unexpected token: as
+line 1:8: unexpected token: as
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectClause(HqlBaseParser.java:1256)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1030)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:17:16  [ main:6051 ] - [ ERROR ]  line 1:57: unexpected token: as
+2016-11-15 15:17:16  [ main:6051 ] - [ ERROR ]  line 1:57: unexpected token: as
+line 1:57: unexpected token: as
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClassOrOuterQueryPath(HqlBaseParser.java:1866)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromRange(HqlBaseParser.java:1492)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClause(HqlBaseParser.java:1336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1054)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:17:16  [ main:6051 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@21b585b1 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@6c661428, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: as near line 1, column 8 [select as from me.hagen.ssh.domain.AverageStar as where as.UserId = ?], mergedContextConfiguration = [MergedContextConfiguration@145c38c1 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 15:17:16  [ Thread-5:6113 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@157844d3: startup date [Tue Nov 15 15:17:12 CST 2016]; root of context hierarchy
+2016-11-15 15:18:46  [ main:250 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:18:47  [ main:954 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:18:47  [ main:1027 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:18:47  [ main:1027 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:18:47  [ main:1027 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:18:47  [ main:1027 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:18:47  [ main:1043 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:18:47  [ main:1105 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@29f12030: startup date [Tue Nov 15 15:18:47 CST 2016]; root of context hierarchy
+2016-11-15 15:18:47  [ main:1423 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 15:18:48  [ main:1705 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 15:18:48  [ main:2205 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 15:18:48  [ main:2216 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 15:18:48  [ main:2216 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 15:18:48  [ main:2216 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 15:18:48  [ main:2247 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 15:18:48  [ main:2341 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 15:18:49  [ main:2638 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 15:18:49  [ main:2653 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 15:18:49  [ main:2653 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 15:18:49  [ main:2653 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 15:18:49  [ main:2653 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 15:18:49  [ main:2763 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f91db2d9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d972b922 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjd4ki1ezi1ln|5d3e7783, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@93f5cf50 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjd4ki1ezi1ln|181e0e53, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjd4ki1ezi1ln|661303aa, numHelperThreads -> 3 ]
+2016-11-15 15:18:49  [ main:3035 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 15:18:49  [ main:3035 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 15:18:49  [ main:3051 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 15:18:49  [ main:3051 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 15:18:49  [ main:3348 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 15:18:49  [ main:3348 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 15:18:49  [ main:3353 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 15:18:49  [ main:3447 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 15:18:49  [ main:3447 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 15:18:49  [ main:3447 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3447 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3462 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 15:18:49  [ main:3462 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 15:18:49  [ main:3462 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3462 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3478 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 15:18:49  [ main:3478 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 15:18:49  [ main:3478 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3493 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3509 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 15:18:49  [ main:3509 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 15:18:49  [ main:3509 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3509 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3525 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 15:18:49  [ main:3525 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3540 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3556 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 15:18:49  [ main:3556 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 15:18:49  [ main:3556 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3556 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:49  [ main:3574 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 15:18:49  [ main:3575 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 15:18:49  [ main:3575 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:49  [ main:3576 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3591 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 15:18:50  [ main:3591 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 15:18:50  [ main:3592 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3592 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3601 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 15:18:50  [ main:3602 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:18:50  [ main:3602 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3603 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3603 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 15:18:50  [ main:3603 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 15:18:50  [ main:3603 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3603 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3619 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 15:18:50  [ main:3634 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 15:18:50  [ main:3634 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3634 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3650 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 15:18:50  [ main:3650 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 15:18:50  [ main:3650 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3650 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 15:18:50  [ main:3666 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:18:50  [ main:3681 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:18:50  [ main:3681 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 15:18:50  [ main:3791 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@f91db2d9 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d972b922 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjd4ki1ezi1ln|5d3e7783, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@93f5cf50 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjd4ki1ezi1ln|181e0e53, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjd4ki1ezi1ln|661303aa, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 15:18:50  [ main:4509 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@6c661428 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@60d5ad52, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@21b585b1 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@3a9d609d]; rollback [true]
+2016-11-15 15:18:50  [ main:4549 ] - [ ERROR ]  line 1:8: unexpected token: *
+2016-11-15 15:18:50  [ main:4549 ] - [ ERROR ]  line 1:8: unexpected token: *
+line 1:8: unexpected token: *
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectClause(HqlBaseParser.java:1256)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1030)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:18:50  [ main:4549 ] - [ ERROR ]  line 1:56: unexpected token: as
+2016-11-15 15:18:50  [ main:4549 ] - [ ERROR ]  line 1:56: unexpected token: as
+line 1:56: unexpected token: as
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClassOrOuterQueryPath(HqlBaseParser.java:1866)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromRange(HqlBaseParser.java:1492)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.fromClause(HqlBaseParser.java:1336)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1054)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:18:50  [ main:4565 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@6c661428 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@60d5ad52, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from me.hagen.ssh.domain.AverageStar as where as.UserId = ?], mergedContextConfiguration = [MergedContextConfiguration@21b585b1 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 15:18:50  [ Thread-5:4565 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@29f12030: startup date [Tue Nov 15 15:18:47 CST 2016]; root of context hierarchy
+2016-11-15 15:19:18  [ main:250 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:19:18  [ main:734 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:19:18  [ main:812 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:18  [ main:812 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:18  [ main:812 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:18  [ main:828 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:19:18  [ main:828 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:19:18  [ main:921 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@643e1d69: startup date [Tue Nov 15 15:19:18 CST 2016]; root of context hierarchy
+2016-11-15 15:19:19  [ main:1219 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 15:19:19  [ main:1469 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 15:19:20  [ main:1971 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 15:19:20  [ main:1979 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 15:19:20  [ main:1981 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 15:19:20  [ main:1984 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 15:19:20  [ main:2012 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 15:19:20  [ main:2056 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 15:19:20  [ main:2368 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 15:19:20  [ main:2384 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 15:19:20  [ main:2384 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 15:19:20  [ main:2384 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 15:19:20  [ main:2384 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 15:19:20  [ main:2477 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@f235c182 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@50a815ed [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjdsshfgs1bm|30186948, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@bc3d72bc [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjdsshfgs1bm|5d3e7783, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjdsshfgs1bm|6a55c240, numHelperThreads -> 3 ]
+2016-11-15 15:19:20  [ main:2759 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 15:19:20  [ main:2759 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 15:19:20  [ main:2774 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 15:19:20  [ main:2774 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 15:19:21  [ main:3056 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 15:19:21  [ main:3056 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 15:19:21  [ main:3066 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 15:19:21  [ main:3113 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 15:19:21  [ main:3113 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 15:19:21  [ main:3113 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3113 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3129 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 15:19:21  [ main:3129 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 15:19:21  [ main:3129 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3129 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3144 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 15:19:21  [ main:3144 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 15:19:21  [ main:3144 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3144 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3160 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 15:19:21  [ main:3160 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 15:19:21  [ main:3160 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3160 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3176 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 15:19:21  [ main:3176 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 15:19:21  [ main:3176 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3176 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3191 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 15:19:21  [ main:3191 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:19:21  [ main:3191 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3191 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3191 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3207 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3222 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 15:19:21  [ main:3222 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 15:19:21  [ main:3222 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3222 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3238 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3254 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 15:19:21  [ main:3254 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 15:19:21  [ main:3254 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3254 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3269 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 15:19:21  [ main:3269 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 15:19:21  [ main:3269 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3285 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3301 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 15:19:21  [ main:3301 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 15:19:21  [ main:3301 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3301 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3301 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 15:19:21  [ main:3316 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 15:19:21  [ main:3316 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:21  [ main:3316 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:21  [ main:3316 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 15:19:21  [ main:3426 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@f235c182 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@50a815ed [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjdsshfgs1bm|30186948, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@bc3d72bc [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjdsshfgs1bm|5d3e7783, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjdsshfgs1bm|6a55c240, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 15:19:22  [ main:4160 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@13b0c258 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@32921158, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@39a72981 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@2d35eea7]; rollback [true]
+2016-11-15 15:19:22  [ main:4200 ] - [ ERROR ]  line 1:29: unexpected token: as
+2016-11-15 15:19:22  [ main:4200 ] - [ ERROR ]  line 1:29: unexpected token: as
+line 1:29: unexpected token: as
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1069)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:19:22  [ main:4216 ] - [ ERROR ]  line 1:38: unexpected token: as
+2016-11-15 15:19:22  [ main:4216 ] - [ ERROR ]  line 1:38: unexpected token: as
+line 1:38: unexpected token: as
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.negatedExpression(HqlBaseParser.java:2355)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalAndExpression(HqlBaseParser.java:2259)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalOrExpression(HqlBaseParser.java:2224)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.expression(HqlBaseParser.java:2010)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.logicalExpression(HqlBaseParser.java:1786)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.whereClause(HqlBaseParser.java:452)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:706)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1736)
+	at me.hagen.ssh.dao.PartTimeCommentDao.getStar(PartTimeCommentDao.java:99)
+	at me.hagen.ssh.dao.PartTimeOrderDaoTest.testDeletePartTimeOrder(PartTimeOrderDaoTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:232)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:89)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:175)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+2016-11-15 15:19:22  [ main:4231 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@13b0c258 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@32921158, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: as near line 1, column 29 [select AverageStar as from  as where as.UserId = ?], mergedContextConfiguration = [MergedContextConfiguration@39a72981 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 15:19:22  [ Thread-5:4247 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@643e1d69: startup date [Tue Nov 15 15:19:18 CST 2016]; root of context hierarchy
+2016-11-15 15:19:45  [ main:234 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:19:45  [ main:719 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 15:19:45  [ main:783 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:45  [ main:783 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:45  [ main:783 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 15:19:45  [ main:798 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:19:45  [ main:798 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 15:19:45  [ main:908 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@31059033: startup date [Tue Nov 15 15:19:45 CST 2016]; root of context hierarchy
+2016-11-15 15:19:46  [ main:1189 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 15:19:46  [ main:1439 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 15:19:46  [ main:1939 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 15:19:46  [ main:1950 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 15:19:46  [ main:1950 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 15:19:46  [ main:1950 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 15:19:46  [ main:1981 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 15:19:47  [ main:2028 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 15:19:47  [ main:2341 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 15:19:47  [ main:2341 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 15:19:47  [ main:2356 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 15:19:47  [ main:2356 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 15:19:47  [ main:2356 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 15:19:47  [ main:2466 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@66eda3c4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6a647fa3 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjedjt13ugisv|5758f8e6, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c76b03ac [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjedjt13ugisv|12a80ea3, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjedjt13ugisv|783b0edf, numHelperThreads -> 3 ]
+2016-11-15 15:19:47  [ main:2753 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 15:19:47  [ main:2753 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 15:19:47  [ main:2768 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 15:19:47  [ main:2768 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 15:19:48  [ main:3081 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 15:19:48  [ main:3081 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 15:19:48  [ main:3093 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 15:19:48  [ main:3109 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 15:19:48  [ main:3109 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 15:19:48  [ main:3109 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3109 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3124 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 15:19:48  [ main:3124 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 15:19:48  [ main:3124 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3124 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3140 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 15:19:48  [ main:3140 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 15:19:48  [ main:3140 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3140 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3155 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 15:19:48  [ main:3155 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 15:19:48  [ main:3155 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3155 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3171 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 15:19:48  [ main:3171 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 15:19:48  [ main:3171 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3171 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3187 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 15:19:48  [ main:3187 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:19:48  [ main:3187 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3187 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3202 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 15:19:48  [ main:3202 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 15:19:48  [ main:3202 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3202 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3218 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 15:19:48  [ main:3218 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 15:19:48  [ main:3218 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3218 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3234 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3249 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 15:19:48  [ main:3249 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 15:19:48  [ main:3249 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3249 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3265 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 15:19:48  [ main:3265 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 15:19:48  [ main:3265 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3265 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3296 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 15:19:48  [ main:3296 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 15:19:48  [ main:3296 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3296 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3296 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 15:19:48  [ main:3312 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 15:19:48  [ main:3452 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@66eda3c4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6a647fa3 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksjedjt13ugisv|5758f8e6, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c76b03ac [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjedjt13ugisv|12a80ea3, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksjedjt13ugisv|783b0edf, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 15:19:49  [ main:4382 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@32921158 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@145c38c1, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13b0c258 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@616139ed]; rollback [true]
+2016-11-15 15:19:49  [ main:4565 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 66.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2016-11-15 15:19:49  [ main:4752 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@32921158 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@145c38c1, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13b0c258 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 15:19:49  [ Thread-5:4752 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@31059033: startup date [Tue Nov 15 15:19:45 CST 2016]; root of context hierarchy
+2016-11-15 16:08:43  [ main:233 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 16:08:44  [ main:772 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 16:08:44  [ main:836 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:08:44  [ main:837 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:08:44  [ main:838 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:08:44  [ main:844 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 16:08:44  [ main:845 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 16:08:44  [ main:937 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@5c71b273: startup date [Tue Nov 15 16:08:44 CST 2016]; root of context hierarchy
+2016-11-15 16:08:44  [ main:1245 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 16:08:44  [ main:1503 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 16:08:45  [ main:2009 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 16:08:45  [ main:2016 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 16:08:45  [ main:2019 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 16:08:45  [ main:2021 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 16:08:45  [ main:2047 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 16:08:45  [ main:2098 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 16:08:45  [ main:2405 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 16:08:45  [ main:2406 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 16:08:45  [ main:2419 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 16:08:45  [ main:2419 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 16:08:45  [ main:2420 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 16:08:45  [ main:2511 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@9ebb753d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@abbeae96 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksl5ct1lvikc9|5faa004f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@aa7f84e2 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl5ct1lvikc9|3ef17aa1, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl5ct1lvikc9|1a5c091f, numHelperThreads -> 3 ]
+2016-11-15 16:08:46  [ main:2789 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 16:08:46  [ main:2798 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 16:08:46  [ main:2811 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 16:08:46  [ main:2816 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 16:08:46  [ main:3091 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 16:08:46  [ main:3091 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 16:08:46  [ main:3097 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 16:08:46  [ main:3120 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 16:08:46  [ main:3121 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 16:08:46  [ main:3121 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3122 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3131 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 16:08:46  [ main:3131 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 16:08:46  [ main:3132 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3132 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3147 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 16:08:46  [ main:3148 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 16:08:46  [ main:3149 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3150 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3168 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 16:08:46  [ main:3169 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 16:08:46  [ main:3170 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3171 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3180 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 16:08:46  [ main:3181 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 16:08:46  [ main:3181 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3182 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3191 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 16:08:46  [ main:3192 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 16:08:46  [ main:3192 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3193 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3205 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 16:08:46  [ main:3205 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 16:08:46  [ main:3206 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3206 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3217 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 16:08:46  [ main:3218 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 16:08:46  [ main:3218 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3219 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3230 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 16:08:46  [ main:3231 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 16:08:46  [ main:3232 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3232 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3242 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 16:08:46  [ main:3243 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 16:08:46  [ main:3243 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3243 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3253 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 16:08:46  [ main:3254 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 16:08:46  [ main:3255 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3255 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3267 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 16:08:46  [ main:3268 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 16:08:46  [ main:3284 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3285 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3298 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 16:08:46  [ main:3299 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 16:08:46  [ main:3299 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3300 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3309 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 16:08:46  [ main:3309 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 16:08:46  [ main:3310 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3310 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3321 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 16:08:46  [ main:3322 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 16:08:46  [ main:3323 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:08:46  [ main:3323 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:08:46  [ main:3328 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 16:08:46  [ main:3454 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@9ebb753d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@abbeae96 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksl5ct1lvikc9|5faa004f, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@aa7f84e2 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl5ct1lvikc9|3ef17aa1, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl5ct1lvikc9|1a5c091f, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 16:08:47  [ main:4165 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@541767f1 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@3774c880, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@4ca92a58 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@7fc75485]; rollback [true]
+2016-11-15 16:08:47  [ main:4322 ] - [ WARN ]  SQL Error: 1054, SQLState: 42S22
+2016-11-15 16:08:47  [ main:4322 ] - [ ERROR ]  Unknown column 'WorkId' in 'where clause'
+2016-11-15 16:08:47  [ main:4330 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@541767f1 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@3774c880, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = org.hibernate.exception.SQLGrammarException: Unknown column 'WorkId' in 'where clause', mergedContextConfiguration = [MergedContextConfiguration@4ca92a58 testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 16:08:47  [ Thread-5:4366 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@5c71b273: startup date [Tue Nov 15 16:08:44 CST 2016]; root of context hierarchy
+2016-11-15 16:09:32  [ main:219 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 16:09:33  [ main:690 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-15 16:09:33  [ main:754 ] - [ INFO ]  Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=close; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:09:33  [ main:756 ] - [ INFO ]  Overriding bean definition for bean 'sessionFactory': replacing [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.LocalSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:09:33  [ main:759 ] - [ INFO ]  Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]] with [Generic bean: class [org.springframework.orm.hibernate4.HibernateTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [applicationContext.xml]]
+2016-11-15 16:09:33  [ main:764 ] - [ INFO ]  Overriding bean definition for bean 'txAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 16:09:33  [ main:766 ] - [ INFO ]  Overriding bean definition for bean 'serviceOperation': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2016-11-15 16:09:33  [ main:919 ] - [ INFO ]  Refreshing org.springframework.context.support.GenericApplicationContext@365474b4: startup date [Tue Nov 15 16:09:33 CST 2016]; root of context hierarchy
+2016-11-15 16:09:33  [ main:1222 ] - [ INFO ]  MLog clients using log4j logging.
+2016-11-15 16:09:34  [ main:1476 ] - [ INFO ]  Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2016-11-15 16:09:34  [ main:1966 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-11-15 16:09:34  [ main:1972 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-11-15 16:09:34  [ main:1975 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-11-15 16:09:34  [ main:1977 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-11-15 16:09:34  [ main:2001 ] - [ INFO ]  HHH000044: Configuring from URL: file:/E:/Eclipse/mmdworkspace/ssh/target/classes/hibernate.cfg.xml
+2016-11-15 16:09:34  [ main:2056 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-11-15 16:09:34  [ main:2382 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-11-15 16:09:34  [ main:2382 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-11-15 16:09:34  [ main:2395 ] - [ INFO ]  HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8
+2016-11-15 16:09:34  [ main:2395 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, user=root, password=****, autoReconnectForPools=true}
+2016-11-15 16:09:34  [ main:2396 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-11-15 16:09:35  [ main:2485 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@4fc561aa [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7c9b6c5d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksl6etlfvy1q3|3bdfd344, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@62a31bc6 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl6etlfvy1q3|58a31982, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl6etlfvy1q3|182b1195, numHelperThreads -> 3 ]
+2016-11-15 16:09:35  [ main:2755 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-11-15 16:09:35  [ main:2764 ] - [ INFO ]  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2016-11-15 16:09:35  [ main:2778 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-11-15 16:09:35  [ main:2783 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-11-15 16:09:35  [ main:3047 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-11-15 16:09:35  [ main:3047 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-11-15 16:09:35  [ main:3053 ] - [ INFO ]  HHH000396: Updating schema
+2016-11-15 16:09:35  [ main:3074 ] - [ INFO ]  HHH000261: Table found: part-time.average_star
+2016-11-15 16:09:35  [ main:3075 ] - [ INFO ]  HHH000037: Columns: [id, runpublisher, ptpublisher, userid, ptworker, runworker]
+2016-11-15 16:09:35  [ main:3075 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3076 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3085 ] - [ INFO ]  HHH000261: Table found: part-time.classification
+2016-11-15 16:09:35  [ main:3086 ] - [ INFO ]  HHH000037: Columns: [id, name, pid]
+2016-11-15 16:09:35  [ main:3087 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3087 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3098 ] - [ INFO ]  HHH000261: Table found: part-time.coupon
+2016-11-15 16:09:35  [ main:3099 ] - [ INFO ]  HHH000037: Columns: [limit, id, decreased, status, userid, type, finishedtime]
+2016-11-15 16:09:35  [ main:3099 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3100 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3119 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_order
+2016-11-15 16:09:35  [ main:3120 ] - [ INFO ]  HHH000037: Columns: [averagestar, releasetime, occupation, detail, starttime, endintime, status, location, userid, requirednumber, type, education, cid, currentnumber, id, age, name, safemoney, gender, pay, longitude, latitude, cutofftime]
+2016-11-15 16:09:35  [ main:3120 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3121 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3131 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_picture
+2016-11-15 16:09:35  [ main:3132 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid, imgurl]
+2016-11-15 16:09:35  [ main:3133 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3134 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3142 ] - [ INFO ]  HHH000261: Table found: part-time.part_time_relation
+2016-11-15 16:09:35  [ main:3143 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 16:09:35  [ main:3144 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3144 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3154 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment
+2016-11-15 16:09:35  [ main:3155 ] - [ INFO ]  HHH000037: Columns: [content, id, star, userid, publisherid, type, runid]
+2016-11-15 16:09:35  [ main:3155 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3156 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3164 ] - [ INFO ]  HHH000261: Table found: part-time.run_comment_picture
+2016-11-15 16:09:35  [ main:3164 ] - [ INFO ]  HHH000037: Columns: [commentid, id, imgname]
+2016-11-15 16:09:35  [ main:3165 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3165 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3180 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_order
+2016-11-15 16:09:35  [ main:3181 ] - [ INFO ]  HHH000037: Columns: [finishtime, id, averagestar, releasetime, detail, status, name, userid, pay, longitude, latitude, destination]
+2016-11-15 16:09:35  [ main:3182 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3183 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3192 ] - [ INFO ]  HHH000261: Table found: part-time.run_off_relation
+2016-11-15 16:09:35  [ main:3193 ] - [ INFO ]  HHH000037: Columns: [id, hired, userid, orderid]
+2016-11-15 16:09:35  [ main:3193 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3194 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3202 ] - [ INFO ]  HHH000261: Table found: part-time.run_picture
+2016-11-15 16:09:35  [ main:3203 ] - [ INFO ]  HHH000037: Columns: [id, imgname, orderid]
+2016-11-15 16:09:35  [ main:3203 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3204 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3213 ] - [ INFO ]  HHH000261: Table found: part-time.user
+2016-11-15 16:09:35  [ main:3214 ] - [ INFO ]  HHH000037: Columns: [wbnumber, id, wcnumber, phonenumber, certifytype, qqnumber, usertoken]
+2016-11-15 16:09:35  [ main:3214 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3215 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3227 ] - [ INFO ]  HHH000261: Table found: part-time.user_info
+2016-11-15 16:09:35  [ main:3244 ] - [ INFO ]  HHH000037: Columns: [occupation, nickname, truename, creditasboss, userid, education, password, banknumber, id, identitynumber, headimage, balance, creditasworker, age, gender]
+2016-11-15 16:09:35  [ main:3244 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3245 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3255 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment
+2016-11-15 16:09:35  [ main:3255 ] - [ INFO ]  HHH000037: Columns: [content, id, workid, star, userid, publisherid, type]
+2016-11-15 16:09:35  [ main:3256 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3256 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3265 ] - [ INFO ]  HHH000261: Table found: part-time.work_comment_picture
+2016-11-15 16:09:35  [ main:3265 ] - [ INFO ]  HHH000037: Columns: [id, imgname, workcommentid, imgurl]
+2016-11-15 16:09:35  [ main:3266 ] - [ INFO ]  HHH000108: Foreign keys: []
+2016-11-15 16:09:35  [ main:3266 ] - [ INFO ]  HHH000126: Indexes: [primary]
+2016-11-15 16:09:35  [ main:3268 ] - [ INFO ]  HHH000232: Schema update complete
+2016-11-15 16:09:35  [ main:3380 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@4fc561aa [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7c9b6c5d [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1689ksl6etlfvy1q3|3bdfd344, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@62a31bc6 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl6etlfvy1q3|58a31982, jdbcUrl -> jdbc:mysql://localhost:3306/part-time?useUnicode=true&characterEncoding=UTF8, properties -> {autoReconnect=true, is-connection-validation-required=true, user=******, password=******, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge1689ksl6etlfvy1q3|182b1195, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-11-15 16:09:36  [ main:4085 ] - [ INFO ]  Began transaction (1) for test context [DefaultTestContext@6e7e4042 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@761b1eb9, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@22ace5ba testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.hibernate4.HibernateTransactionManager@370f8f43]; rollback [true]
+2016-11-15 16:09:36  [ main:4221 ] - [ INFO ]  Rolled back transaction after test execution for test context [DefaultTestContext@6e7e4042 testClass = PartTimeOrderDaoTest, testInstance = me.hagen.ssh.dao.PartTimeOrderDaoTest@761b1eb9, testMethod = testDeletePartTimeOrder@PartTimeOrderDaoTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@22ace5ba testClass = PartTimeOrderDaoTest, locations = '{classpath:applicationContext.xml, classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-15 16:09:36  [ Thread-5:4250 ] - [ INFO ]  Closing org.springframework.context.support.GenericApplicationContext@365474b4: startup date [Tue Nov 15 16:09:33 CST 2016]; root of context hierarchy

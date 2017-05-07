@@ -1,0 +1,2 @@
+2016-08-26 15:40:23  [ main:5834 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from average_star set PTPublisher=4 where UserId=1' at line 1
+ 

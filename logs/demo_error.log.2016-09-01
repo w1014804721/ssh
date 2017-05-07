@@ -1,0 +1,2 @@
+2016-09-01 10:42:47  [ main:5327 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AverageStar LIMIT 0,3' at line 1
+ 

@@ -1,0 +1,6 @@
+2016-11-18 15:27:01  [ main:4747 ] - [ ERROR ]  Can not issue executeUpdate() for SELECTs
+ 2016-11-18 15:29:29  [ main:4750 ] - [ ERROR ]  Unknown column 'asfasfsdfsdfadf' in 'where clause'
+ 2016-11-18 15:33:47  [ main:4530 ] - [ ERROR ]  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'fsaf sadf sd f' at line 1
+ 2016-11-18 15:36:29  [ main:5311 ] - [ ERROR ]  Unknown column '49DBD34500D9266F9294770E51AF32A0' in 'where clause'
+ 2016-11-18 15:37:00  [ main:5434 ] - [ ERROR ]  Unknown column '49DBD34500D9266F9294770E51AF32A0' in 'where clause'
+ 

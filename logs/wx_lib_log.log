@@ -1,0 +1,272 @@
+2016-05-08 12:23:01  [ Timer-3:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2016-05-08 12:23:02  [ Timer-3:153 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Sun May 08 12:23:02 CST 2016]; root of context hierarchy
+2016-05-08 12:23:02  [ Timer-3:390 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-05-08 12:23:02  [ Timer-3:854 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-08 12:23:03  [ Timer-3:1024 ] - [ INFO ]  MLog clients using log4j logging.
+2016-05-08 12:23:03  [ Timer-3:1090 ] - [ INFO ]  Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2016-05-08 12:23:03  [ Timer-3:1839 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2016-05-08 12:23:03  [ Timer-3:1855 ] - [ INFO ]  HHH000412: Hibernate Core {4.1.4.Final}
+2016-05-08 12:23:03  [ Timer-3:1871 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2016-05-08 12:23:03  [ Timer-3:1871 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2016-05-08 12:23:03  [ Timer-3:1924 ] - [ INFO ]  HHH000044: Configuring from URL: file:/C:/workspaces/eclipse_workspace/ssh/target/classes/hibernate.cfg.xml
+2016-05-08 12:23:03  [ Timer-3:2008 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+2016-05-08 12:23:04  [ Timer-3:2109 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15x9g13kfmo425xhaz|e6091d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15x9g13kfmo425xhaz|e6091d, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, jdbcUrl -> jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=UTF8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 40, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2016-05-08 12:23:04  [ Timer-3:2540 ] - [ WARN ]  HHH000208: org.hibernate.connection.C3P0ConnectionProvider has been deprecated in favor of org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider; that provider will be used instead.
+2016-05-08 12:23:04  [ Timer-3:2540 ] - [ INFO ]  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+2016-05-08 12:23:04  [ Timer-3:2588 ] - [ INFO ]  HHH010002: C3P0 using driver: null at URL: null
+2016-05-08 12:23:04  [ Timer-3:2590 ] - [ INFO ]  HHH000046: Connection properties: {autoReconnect=true, is-connection-validation-required=true, autoReconnectForPools=true}
+2016-05-08 12:23:04  [ Timer-3:2591 ] - [ INFO ]  HHH000006: Autocommit mode: false
+2016-05-08 12:23:04  [ Timer-3:2593 ] - [ WARN ]  HHH000148: No JDBC Driver class was specified by property hibernate.connection.driver_class
+2016-05-08 12:23:04  [ Timer-3:2771 ] - [ INFO ]  Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d8848421 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@81c5f3d8 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15x9g13kfmo425xhaz|d21a67, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d46b9f27 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge15x9g13kfmo425xhaz|2abcaa, jdbcUrl -> null, properties -> {autoReconnect=true, is-connection-validation-required=true, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge15x9g13kfmo425xhaz|1777b2, numHelperThreads -> 3 ]
+2016-05-08 12:23:24  [ Timer-6:22785 ] - [ WARN ]  com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@31d5e8 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+2016-05-08 12:23:24  [ Timer-6:22795 ] - [ WARN ]  com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@31d5e8 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 3
+	Active Threads: 3
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1513321 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@c4d11f (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1b48c61 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1e4cfaa
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1e4280c
+Pool thread stack traces:
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
+		java.lang.Thread.sleep(Native Method)
+		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+
+
+2016-05-08 12:23:33  [ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0:31971 ] - [ WARN ]  com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1513321 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.lang.NullPointerException
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.parseFabricURL(FabricMySQLDriver.java:96)
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.acceptsURL(FabricMySQLDriver.java:92)
+	at java.sql.DriverManager.getDriver(Unknown Source)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.driver(DriverManagerDataSource.java:224)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:120)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2016-05-08 12:23:33  [ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1:31977 ] - [ WARN ]  com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@c4d11f -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.lang.NullPointerException
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.parseFabricURL(FabricMySQLDriver.java:96)
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.acceptsURL(FabricMySQLDriver.java:92)
+	at java.sql.DriverManager.getDriver(Unknown Source)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.driver(DriverManagerDataSource.java:224)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:120)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2016-05-08 12:23:33  [ com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2:31979 ] - [ WARN ]  com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1b48c61 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.lang.NullPointerException
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.parseFabricURL(FabricMySQLDriver.java:96)
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.acceptsURL(FabricMySQLDriver.java:92)
+	at java.sql.DriverManager.getDriver(Unknown Source)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.driver(DriverManagerDataSource.java:224)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:120)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2016-05-08 12:23:33  [ Timer-3:31979 ] - [ WARN ]  HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+2016-05-08 12:23:33  [ Timer-3:31995 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2016-05-08 12:23:34  [ Timer-3:32028 ] - [ INFO ]  HHH000422: Disabling contextual LOB creation as connection was null
+2016-05-08 12:23:34  [ Timer-3:32055 ] - [ INFO ]  HHH000399: Using default transaction strategy (direct JDBC transactions)
+2016-05-08 12:23:34  [ Timer-3:32055 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2016-05-08 12:23:34  [ Timer-3:32487 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2016-05-08 12:23:34  [ Timer-3:32487 ] - [ INFO ]  HHH000102: Fetching database metadata
+2016-05-08 12:23:53  [ Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@778f0b:52008 ] - [ WARN ]  com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1e4cfaa -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.lang.NullPointerException
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.parseFabricURL(FabricMySQLDriver.java:96)
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.acceptsURL(FabricMySQLDriver.java:92)
+	at java.sql.DriverManager.getDriver(Unknown Source)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.driver(DriverManagerDataSource.java:224)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:120)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+2016-05-08 12:23:53  [ Task-Thread-for-com.mchange.v2.async.ThreadPerTaskAsynchronousRunner@778f0b:52017 ] - [ WARN ]  com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1e4280c -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+java.lang.NullPointerException
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.parseFabricURL(FabricMySQLDriver.java:96)
+	at com.mysql.fabric.jdbc.FabricMySQLDriver.acceptsURL(FabricMySQLDriver.java:92)
+	at java.sql.DriverManager.getDriver(Unknown Source)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.driver(DriverManagerDataSource.java:224)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:120)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:143)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:132)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPerTaskAsynchronousRunner$TaskThread.run(ThreadPerTaskAsynchronousRunner.java:255)
+2016-05-08 12:23:53  [ Timer-3:52018 ] - [ ERROR ]  HHH000319: Could not get database metadata
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:84)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:497)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1744)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1782)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:343)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:431)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:548)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.restartWebApp(AbstractJettyRunMojo.java:458)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo$1.filesChanged(AbstractJettyRunMojo.java:419)
+	at org.mortbay.util.Scanner.reportBulkChanges(Scanner.java:486)
+	at org.mortbay.util.Scanner.reportDifferences(Scanner.java:352)
+	at org.mortbay.util.Scanner.scan(Scanner.java:280)
+	at org.mortbay.util.Scanner$1.run(Scanner.java:232)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
+	... 40 more
+2016-05-08 12:23:54  [ Timer-3:52041 ] - [ ERROR ]  HHH000299: Could not complete schema update
+java.sql.SQLException: Connections could not be acquired from the underlying database!
+	at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:106)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:529)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:128)
+	at org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider.getConnection(C3P0ConnectionProvider.java:84)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:194)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:178)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:497)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1744)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1782)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:343)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:431)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:681)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.mortbay.jetty.handler.ContextHandler.startContext(ContextHandler.java:548)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:136)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:467)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.restartWebApp(AbstractJettyRunMojo.java:458)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo$1.filesChanged(AbstractJettyRunMojo.java:419)
+	at org.mortbay.util.Scanner.reportBulkChanges(Scanner.java:486)
+	at org.mortbay.util.Scanner.reportDifferences(Scanner.java:352)
+	at org.mortbay.util.Scanner.scan(Scanner.java:280)
+	at org.mortbay.util.Scanner$1.run(Scanner.java:232)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: com.mchange.v2.resourcepool.CannotAcquireResourceException: A ResourcePool could not acquire a resource from its primary factory or source.
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1319)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:557)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:477)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:525)
+	... 40 more
+2016-05-08 12:23:54  [ Timer-3:52193 ] - [ INFO ]  Using DataSource [com.mchange.v2.c3p0.PoolBackedDataSource@d8848421 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@81c5f3d8 [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15x9g13kfmo425xhaz|d21a67, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 50000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 100, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d46b9f27 [ description -> null, driverClass -> null, factoryClassLocation -> null, identityToken -> 1hge15x9g13kfmo425xhaz|2abcaa, jdbcUrl -> null, properties -> {autoReconnect=true, is-connection-validation-required=true, autoReconnectForPools=true} ], preferredTestQuery -> null, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, factoryClassLocation -> null, identityToken -> 1hge15x9g13kfmo425xhaz|1777b2, numHelperThreads -> 3 ]] of Hibernate SessionFactory for HibernateTransactionManager
+2016-05-08 12:23:54  [ Timer-3:52563 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 52561 ms
+2016-05-08 12:23:54  [ Timer-3:52948 ] - [ INFO ]  Parsing configuration file [struts-default.xml]
+2016-05-08 12:23:55  [ Timer-3:53111 ] - [ INFO ]  Parsing configuration file [struts-plugin.xml]
+2016-05-08 12:23:55  [ Timer-3:53115 ] - [ INFO ]  Parsing configuration file [struts.xml]
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.factory.UnknownHandlerFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2016-05-08 12:23:55  [ Timer-3:53131 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2016-05-08 12:23:55  [ Timer-3:53147 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2016-05-08 12:23:55  [ Timer-3:53147 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2016-05-08 12:23:55  [ Timer-3:53148 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.util.ContentTypeMatcher)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (org.apache.struts2.dispatcher.DispatcherErrorHandler)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.security.ExcludedPatternsChecker)
+2016-05-08 12:23:55  [ Timer-3:53164 ] - [ INFO ]  Choosing bean (struts) for (com.opensymphony.xwork2.security.AcceptedPatternsChecker)
+2016-05-08 12:23:55  [ Timer-3:53195 ] - [ INFO ]  Initializing Struts-Spring integration...
+2016-05-08 12:23:55  [ Timer-3:53195 ] - [ INFO ]  Setting autowire strategy to name
+2016-05-08 12:23:55  [ Timer-3:53195 ] - [ INFO ]  ... initialized Struts-Spring integration successfully
+2016-05-08 12:24:02  [ Timer-3:60788 ] - [ INFO ]  Closing Root WebApplicationContext: startup date [Sun May 08 12:23:02 CST 2016]; root of context hierarchy
